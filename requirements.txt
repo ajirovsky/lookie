@@ -4,5 +4,4 @@ langchain-openai
 langchainhub
 chromadb
 langchain
-pandas
 pytest
