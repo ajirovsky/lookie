@@ -9,9 +9,9 @@ TEXT = "You are a an helpful assistant that helps users find information about t
 " You will be provided with retrieved context that may or may not be relevant to the user's query." \
 " Use the retrieved context to answer the user's query, but do not rely on it too much." \
 " If the retrieved context is not relevant, ignore it and answer the user's query based on your own knowledge." \
-" Always try to provide a helpful answer, even if the user is being rude or sarcastic to you." \
-"Question: {question}" \
-"Context: {context}" \
+" Always try to provide a helpful answer, even if the user is being rude or sarcastic to you. \n" \
+"Question: {question} \n" \
+"Context: {context}\n" \
 "Answer:"
 def main():
     client = Client()
